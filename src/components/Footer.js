@@ -5,7 +5,7 @@ const Footer = () => {
           {/* Enlaces de redes sociales */}
           <div className="flex justify-center space-x-6 mb-4">
             <a
-              href="https://github.com/tu-usuario"
+              href="https://github.com/Aldo564"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400"
@@ -13,7 +13,7 @@ const Footer = () => {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/tu-usuario"
+              href="https://www.linkedin.com/in/aldo-castillo-pezzani-229b7026a/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400"
@@ -21,7 +21,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="mailto:tu-correo@example.com"
+              href="mailto:aldo.castillo.pezzani@gmail.com"
               className="hover:text-blue-400"
             >
               Email
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           {/* Copyright */}
           <p className="text-sm">
-            © {new Date().getFullYear()} Tu Nombre. Todos los derechos reservados.
+            © {new Date().getFullYear()} Aldo Castillo. Todos los derechos reservados.
           </p>
         </div>
       </footer>

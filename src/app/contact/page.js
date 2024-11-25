@@ -14,8 +14,7 @@ const socials = [
               key={index}
               className="border p-4 rounded shadow hover:shadow-lg transition"
             >
-              <h2 className="text-xl font-bold">{social.name}</h2>
-              <p>{social.description}</p>
+              <a href={social.url} target="_blank" rel="noopener noreferrer" className="text-lg font-bold text-center hover:text-blue-400"> {social.name} </a>
             </div>
           ))}
         </div>
